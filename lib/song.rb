@@ -1,6 +1,8 @@
+require_relative /concerns/memorable.rb'
+
 require 'pry'
 
-class Song 
+class Song
   attr_accessor :name
   attr_reader :artist
 
