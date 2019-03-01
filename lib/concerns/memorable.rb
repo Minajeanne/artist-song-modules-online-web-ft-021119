@@ -1,6 +1,6 @@
 module Memorable
 
-module ClassMethods
+
   def all
       @@artists
     end
@@ -8,7 +8,7 @@ module ClassMethods
   def count
     self.all.count
   end
-end
+
 
 
 
